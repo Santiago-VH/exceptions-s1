@@ -2,16 +2,16 @@ package model;
 
 public class Car {
 
-	private String carPlateNumber;
-	public Car(String carPlateNumber) {
-		this.carPlateNumber=carPlateNumber;
+	private String carPlate;
+	public Car(String carPlate) {
+		this.carPlate=carPlate;
 	}
 	
-	public String getCarPlateNumber() {
-		return carPlateNumber;
+	public String getCarPlate() {
+		return carPlate;
 	}
-	public void setCarPlateNumber(String carPlateNumber) {
-		this.carPlateNumber = carPlateNumber;
+	public void setCarPlate(String carPlate) {
+		this.carPlate = carPlate;
 	}
 
 	

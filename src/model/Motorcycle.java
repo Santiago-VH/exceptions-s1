@@ -2,16 +2,16 @@ package model;
 
 public class Motorcycle {
 	
-	private String motoPlateNumber;
-	public Motorcycle(String motoPlateNumber) {
-		this.motoPlateNumber=motoPlateNumber;	
+	private String motoPlate;
+	public Motorcycle(String motoPlate) {
+		this.motoPlate=motoPlate;	
 	}
 	
-	public String getMotoPlateNumber() {
-		return motoPlateNumber;
+	public String getMotoPlate() {
+		return motoPlate;
 	}
-	public void setMotoPlateNumber(String motoPlateNumber) {
-		this.motoPlateNumber = motoPlateNumber;
+	public void setMotoPlate(String motoPlate) {
+		this.motoPlate = motoPlate;
 	}
 
 	
